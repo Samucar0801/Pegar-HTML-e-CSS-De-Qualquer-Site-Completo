@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # URL do site que você quer visualizar o HTML
-url = 'https://muriloribeiro003.github.io/'
+url = 'URL DO SITE ESCOLHIDO'
 
 # Faz uma requisição HTTP para obter o HTML do site
 response = requests.get(url)
@@ -44,7 +44,7 @@ def download_css(url):
         print(f"Erro ao baixar o CSS: {url}")
 
 # URL inicial
-url = 'https://muriloribeiro003.github.io/'
+url = 'URL DO SITE ESCOLHIDO'
 response = requests.get(url)
 
 if response.status_code == 200:
